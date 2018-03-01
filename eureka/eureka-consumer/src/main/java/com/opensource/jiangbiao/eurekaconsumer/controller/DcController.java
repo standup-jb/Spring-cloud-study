@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class DcController {
 
 
+    Object object=new Object();
 
     @Autowired
     RestTemplate restTemplate;
